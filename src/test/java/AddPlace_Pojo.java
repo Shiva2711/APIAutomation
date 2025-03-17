@@ -16,7 +16,6 @@ public class AddPlace_Pojo {
 	@Test
 	public void AddthePlace() {
 		
-		
 		RestAssured.baseURI = "https://rahulshettyacademy.com/";
 		
 		AddPlace p = new AddPlace();
