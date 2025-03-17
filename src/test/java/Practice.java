@@ -17,7 +17,6 @@ public class Practice {
 		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 			
-		
 		AddPlace_Response AddPlaceRes = 
 		given()
 			.log().all()
